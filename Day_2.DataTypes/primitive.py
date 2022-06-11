@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Write a programme tah add the digit in a2 digit number
-eg. 35 = 3=5 =8
+eg. 35 = 3+5 =8
 """
 
 two_digit_number =input("Type a two digit number:")
