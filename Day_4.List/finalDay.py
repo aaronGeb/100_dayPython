@@ -64,10 +64,13 @@ scissors = '''
 
 
 '''
+game_list =[rock,paper,scissors]
 computer_choose =ra.randint(0,2)
 print("Welcome to the Rock ,paper and Scissors game:\n")
 choice = eval(input("What do you choose? Type 0 for Rock,1 for paper or 2 for Scissor\n"))
-print("computer choose:",computer_choose)
+print(game_list[choice])
+print("computer choose:")
+print(game_list[computer_choose])
 if choice ==0 and  computer_choose==2:
     print("You win")
 elif computer_choose > choice:
