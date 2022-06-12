@@ -24,7 +24,7 @@ elif pizza_size =='M' :
 elif pizza_size == 'L':
     bill =25
     if add_pepperoni =='Y':
-       bill +=2
+       bill +=3
     if extra_cheese == 'Y':
         bill +=1 
 print("Your final bill is: ${}".format(bill))        
