@@ -27,15 +27,9 @@ for i in love_var:
             yCount +=1
 
 love_score =int(str(count)   + str(yCount) )
+
  
 if love_score < 10 or love_score > 90:
     print("Your Score is {}, you got together like coke and mentos.".format(love_score))
-elif 40 <love_score<50:
+elif 40 <love_score<55:
      print("Your Score is {}, you got together".format(love_score))
-
-
-
-
-
-
-    
