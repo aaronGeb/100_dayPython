@@ -49,7 +49,7 @@ def main():
         elif next_operation == 'n':
             flag = True
             main()
-    print('Tanks see you later!!!')
+    print('Thanks see you later!!!')
 
 
 main()
